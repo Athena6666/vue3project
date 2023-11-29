@@ -4,6 +4,10 @@
     "element-plus": "^2.4.3"
   },
   "devDependencies": {
+    "husky": "^8.0.0",
     "vite-plugin-svg-icons": "^2.0.1"
+  },
+  "scripts": {
+    "prepare": "husky install"
   }
 }
